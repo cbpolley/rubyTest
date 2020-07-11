@@ -9,7 +9,7 @@ def substrings(search_word, location)
     my_hash[word] = sterilise_search_word.scan(word).count if sterilise_search_word.scan(word).count.positive?
   end
   
-  my_hash
+  puts my_hash
 end
 
 substrings("Howdy partner, sit down! How's it going?", dictionary)
