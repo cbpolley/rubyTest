@@ -17,7 +17,7 @@ def bubble_sort(number_array)
       i = 0
     end
   end
-  puts number_array.join(', ')
+  return number_array
 end
 
-bubble_sort([4,3,78,2,0,2])
+p bubble_sort([4,3,78,2,0,2])
